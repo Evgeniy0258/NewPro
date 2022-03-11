@@ -6,8 +6,8 @@
 // alert(admin);
 
 
-// let PlanetEarth;
-// let UserName;
+// const PlanetEarth;
+// const userName;
 
 
 // let x = 20;
@@ -17,13 +17,13 @@
 // console.log(summa);
 
 
-// let secund = 60;
-// let minute = 60;
-// let hour = 24;
-// let day = 365;
+// let seconds_in_minutes = 60;
+// let minute_in_hour = 60;
+// let hour_in_day = 24;
+// let day_in_year = 365;
 // let age = 23;
-// age = secund;
-// let myAgeInSeconds = secund * minute * hour * day;
+// age = seconds_in_minutes;
+// let myAgeInSeconds = seconds_in_minutes * minute_in_hour * hour_in_day * day_in_year;
 // alert(myAgeInSeconds);
 
 
@@ -33,9 +33,9 @@
 // userName = Number(userName);
 // console.log(count, userName);
 
-// let a = 1
-// let b = 2
-// let c = "белых медведей";
+// const a = 1
+// const b = 2
+// const c = "белых медведей";
 // console.log(`${a}${b} ${c}`);
 
 
@@ -45,24 +45,24 @@
 // let d = "reproach";
 // let e = "chopped";
 
-// var lengthWords = (a.length + b.length + c.length + d.length + e.length);
+// let lengthWords = (a + b + c + d + e).length;
 // console.log(lengthWords);
 
 
 // let a = '5';
 // let b = "text";
 // let c = true;
-// let at = typeof (a);
-// let bt = typeof (b);
-// let ct = typeof (c);
+// let aType = typeof (a);
+// let bType = typeof (b);
+// let cType = typeof (c);
 // console.log(`Variable:have type: ${at} Variable:have type:${bt} Variable:have type:${ct} `)
 
 
 
-let UserName = prompt('как тебя зовут?');
-let UserAge = prompt('Сколько тебе лет?');
-alert(`Тебя зовут: ${UserName} 
- тебе ${UserAge} лет`);
+// let UserName = prompt('как тебя зовут?');
+// let UserAge = prompt('Сколько тебе лет?');
+// alert(`Тебя зовут: ${UserName}
+//  тебе ${UserAge} лет`);
 
 
 
