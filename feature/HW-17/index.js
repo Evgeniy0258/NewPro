@@ -11,8 +11,7 @@
 
 // if (height < width) {
 //     console.log(width)
-// }
-// else {
+// }else {
 //     console.log(height);
 // }
 
@@ -33,31 +32,27 @@
 // let apple = false;
 // let orange = true;
 // let shoulGoToWork;
-// if ((key == true && documents == true && pen == true) && (apple == true || orange == true)) {
-//     shoulGoToWork = true;
-// } else {
-//     shoulGoToWork = false;
-// }
+// shoulGoToWork = key && documents && pen && (apple || orange);
 // console.log(shoulGoToWork);
 
 
 // let n = +prompt();
-// if ((n % 3 != 0) && (n % 5 == 0)) {
+// if ((n % 3 !== 0) && (n % 5 === 0)) {
 //     console.log('Fiz');
-// } else if ((n % 3 == 0) && (n % 5 != 0)) {
+// } else if ((n % 3 === 0) && (n % 5 !== 0)) {
 //     console.log('Buz');
-// } else if ((n % 3 == 0) && (n % 5 == 0)) {
+// } else if ((n % 3 === 0) && (n % 5 === 0)) {
 //     console.log('FizBuz');
 // }
 
 
 
 // let age = +prompt('Возраст?');
-// if (18 <= age) {
+// if (age > 18) {
 //     alert('Выпей пивка');
-// } else if (16 <= age) {
+// } else if (age => 16) {
 //     alert('покури сигаретку, только тссс');
-// } else if (15 >= age) {
+// } else if (age => 15) {
 //     alert('увы, только кола');
 // }
 
@@ -82,6 +77,5 @@
 //     }
 //     default: {
 //         alert('еще раз')
-//         break;
 //     }
 // }
