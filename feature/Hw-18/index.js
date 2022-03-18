@@ -2,7 +2,7 @@
 // function getSum(n) {
 //     let sum = 0;
 //     for (let a = 1; a <= n; a += 1) {
-//     sum += a;
+//      sum += a;
 //     }
 //     return sum;
 // }
