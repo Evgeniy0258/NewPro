@@ -40,6 +40,20 @@
 // alert(getSum(1, 2));
 
 
+
+
+
+// function fooboo(a, foo, boo) {
+//     return a ? foo() : boo()
+// }
+// const foo = function () {
+//     console.log("foo");
+// }
+// const boo = function () {
+//     console.log("boo")
+// }
+// alert(fooboo(true, foo, boo));
+
 // function triangle(a, b, c) {
 //     if (a + b > c) {
 //         return true;
