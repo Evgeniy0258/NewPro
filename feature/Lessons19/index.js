@@ -79,11 +79,11 @@
 // const animals = {
 //     cat: {
 //         name: 'Енчик',
-//         age: 3,
+//         age: 3
 //     },
 //     dog: {
 //         name: 'Орео',
-//         age: 2,
+//         age: 2
 //     }
 // }
 // console.log(animals && animals.bird && animals.bird.name);
