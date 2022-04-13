@@ -1,3 +1,5 @@
+import { addTodoTextField, bigWrapper } from './components.js'
+
 export function getTodo(text) {
     const todoElement = document.createElement('div')
     todoElement.classList.add('todo-item')

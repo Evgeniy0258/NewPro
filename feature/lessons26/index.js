@@ -1,5 +1,5 @@
-import { bigWrapper, wrapperRow, deleteAllButton, addTodoTextField, addTodoButton } from "./components"
-import { getTodo, createTodo, deleteAll } from "./function"
+import { bigWrapper, wrapperRow, deleteAllButton, addTodoTextField, addTodoButton } from "./components.js"
+import { getTodo, createTodo, deleteAll } from "./function.js"
 
 const root = document.getElementById('root')
 
